@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Weather Dashboard</title>
+</head>
+
+<body>
+    <header class="header">
+        <h1>Simply Weather</h1>
+    </header>
+    <div class="container">
+        <div class="search">
+            <input type="text" id="city-input" placeholder="Enter City Name">
+            <button id="search-button"><img src="search.pmg.png" alt="search"></button>
+        </div>
+        <br> <br>
+        <div class="weather">
+            <!-- Create individual weather-card divs for each day -->
+            <div class="weather-card">
+                <h2>Day 1</h2>
+                <p>City: <span id="day1-city-name"></span></p>
+                <p>Temperature: <span id="day1-temperature"></span>&deg;</p>
+                <p>Humidity: <span id="day1-humidity"></span></p>
+                <p>Wind Speed: <span id="day1-wind-speed"></span></p>
+                <br> <br>
+
+               
+            </div>
+            <div class="weather-card">
+                <h2>Day 2</h2>
+                <p>City: <span id="day2-city-name"></span></p>
+                <p>Temperature: <span id="day2-temperature"></span>&deg;</p>
+                <p>Humidity: <span id="day2-humidity"></span></p>
+                <p>Wind Speed: <span id="day2-wind-speed"></span></p>
+                <br> <br>
+            </div>
+            <div class="weather-card">
+                <h2>Day 3</h2>
+                <p>City: <span id="day3-city-name"></span></p>
+                <p>Temperature: <span id="day3-temperature"></span>&deg;</p>
+                <p>Humidity: <span id="day3-humidity"></span></p>
+                <p>Wind Speed: <span id="day3-wind-speed"></span></p>
+                <br> <br>
+            </div>
+            <div class="weather-card">
+                <h2>Day 4</h2>
+                <p>City: <span id="day4-city-name"></span></p>
+                <p>Temperature: <span id="day4-temperature"></span>&deg;</p>
+                <p>Humidity: <span id="day4-humidity"></span></p>
+                <p>Wind Speed: <span id="day4-wind-speed"></span></p>
+                <br> <br>
+            </div>
+            <div class="weather-card">
+                <h2>Day 5</h2>
+                <p>City: <span id="day5-city-name"></span></p>
+                <p>Temperature: <span id="day5-temperature"></span>&deg;</p>
+                <p>Humidity: <span id="day5-humidity"></span></p>
+                <p>Wind Speed: <span id="day5-wind-speed"></span></p>
+                <br> <br>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
